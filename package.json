@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-interiordesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./site/assets/sass/main.scss ./site/assets/css/main.css",
+    "server": "browser-sync start --server 'site' --files 'site'",
+    "dev": "npm-run-all --parallel sass server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeKarow/portfolio-interiordesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeKarow/portfolio-interiordesign/issues"
+  },
+  "homepage": "https://github.com/JoeKarow/portfolio-interiordesign#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  }
+}
