@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/JoeKarow/portfolio-interiordesign#readme",
   "dependencies": {
-    "browser-sync": "^3.0.0",
-    "npm-run-all2": "^8.0.0",
-    "sass": "^1.49.9"
+    "browser-sync": "3.0.4",
+    "npm-run-all2": "8.0.2",
+    "sass": "1.89.0"
   }
 }
