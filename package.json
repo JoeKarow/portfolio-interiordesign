@@ -21,6 +21,6 @@
   "dependencies": {
     "browser-sync": "3.0.4",
     "npm-run-all2": "8.0.4",
-    "sass": "1.96.0"
+    "sass": "1.97.0"
   }
 }
